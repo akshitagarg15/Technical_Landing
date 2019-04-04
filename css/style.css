@@ -1,0 +1,108 @@
+html{
+    height:100%;
+}
+
+
+
+body{
+    background:url("../images/pexels-photo-392018.jpeg") center center fixed;
+   
+    background-position:center;
+    background-size: cover;
+    font-family: 'Catamaran', sans-serif;
+    
+    
+}
+
+.center{
+    text-align: center;
+    padding-top: 10%;
+}
+p,h1{
+    color:white;
+    
+}
+
+h2>span{
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+    
+     
+}
+
+@media(max-width:768px){
+    h1{
+        background-color: #449d44;
+    }
+    h2{
+        background-color: #449d44;
+    }
+}
+
+@media(min-width:768px){
+    h1{
+        background-color: skyblue;
+        opacity: 0.8;
+        padding: 14px 14px 0;
+    }
+    
+    
+}
+
+#login{
+    min-width:250px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+#login .social-buttons{
+    margin: 12px 12px;
+}
+
+.btn-tw{
+    color: white;
+    background-color: #55acee;
+    margin: 0 20px;
+}
+
+.btn-fb{
+    color: white;
+    background-color: #3b599d;
+}
+
+.btn-fb:hover{
+    color: white;
+    background-color: #496ebd;
+}
+
+.btn-tw:hover{
+    color: white;
+    background-color: skyblue;
+}
+.navbar-collapse .collapse{
+    background-color: #e7e7e7;
+  
+}
+#bs-example-navbar-collapse-1{
+    background-color: #e7e7e7;
+   
+}
+
+.container1{
+    background-color: #e7e7e7;
+    
+}
+span{
+    color:black;
+}
+/*
+
+active>a:hover {
+     background-color: #F3CC79;
+    
+}
+*/
+
+
